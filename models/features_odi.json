@@ -1,0 +1,26 @@
+{
+    "batting": [
+        "matches",
+        "innings",
+        "runs",
+        "average_score",
+        "strike_rate",
+        "high_score",
+        "100s",
+        "50",
+        "not_out",
+        "ball_faced",
+        "4s",
+        "6s"
+    ],
+    "bowling": [
+        "matches",
+        "innings",
+        "wickets",
+        "bowling_avg",
+        "bowling_econ",
+        "bowling_sr",
+        "4",
+        "5"
+    ]
+}

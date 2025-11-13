@@ -1,0 +1,23 @@
+{
+    "batting": [
+        "Bat_Mat",
+        "Bat_Inns",
+        "Bat_Runs",
+        "Bat_Ave",
+        "Bat_SR",
+        "Bat_100",
+        "Bat_50",
+        "Bat_4s",
+        "Bat_6s"
+    ],
+    "bowling": [
+        "Bowl_Mat",
+        "Bowl_Inns",
+        "Bowl_Wkts",
+        "Bowl_Ave",
+        "Bowl_Econ",
+        "Bowl_SR",
+        "Bowl_4",
+        "Bowl_5"
+    ]
+}
