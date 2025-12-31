@@ -1,11 +1,11 @@
-# Ignore datasets
-data/*.csv
-data/*.zip
-data/*.json
+# Ignore datasets & outputs
+data/
+outputs/
+*.csv
 
-# Ignore model weights (optional)
-models/*.pkl
+# Ignore models
+*.pkl
 
-# Ignore cache
+# Cache
 __pycache__/
 .ipynb_checkpoints/
