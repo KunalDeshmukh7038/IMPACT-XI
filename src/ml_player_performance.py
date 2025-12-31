@@ -14,31 +14,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 # =========================================================
 # Helper: Clean dataframe safely
 # =========================================================
-# def clean_dataframe(df):
-#     print("🧹 Cleaning dataframe...")
 
-#     # Drop completely empty columns
-#     df = df.dropna(axis=1, how="all")
-
-#     # Replace unwanted symbols
-#     df.replace(["-", "–", "DNB", "NaN", "n/a", "N/A"], pd.NA, inplace=True)
-
-#     # Remove '*' from numeric strings
-#     for col in df.columns:
-#         try:
-#             df[col] = df[col].astype(str).str.replace("*", "", regex=False)
-#         except Exception:
-#             continue
-
-#     # Convert to numeric where possible
-#     for col in df.columns:
-#         try:
-#             df[col] = pd.to_numeric(df[col], errors="coerce")
-#         except Exception:
-#             pass
-
-#     print(f"✅ Cleaning completed. Shape: {df.shape}")
-#     return df
 def clean_dataframe(df):
     print("🧹 Cleaning dataframe...")
 

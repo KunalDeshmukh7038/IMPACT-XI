@@ -1,2 +1,11 @@
-data/*
-outputs/*
+# Ignore datasets
+data/*.csv
+data/*.zip
+data/*.json
+
+# Ignore model weights (optional)
+models/*.pkl
+
+# Ignore cache
+__pycache__/
+.ipynb_checkpoints/
